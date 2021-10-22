@@ -114,6 +114,7 @@
 
 .product-header div img {
     width: 280px;
+    color: var(--primary);
 }
 
 .decor-absolute {
