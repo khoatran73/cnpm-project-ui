@@ -105,6 +105,22 @@
 
 .product-header {
     padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.product-header div img {
+    width: 280px;
+}
+
+.decor-absolute {
+    position: absolute;
+    width: 260px;
+    top: 40px;
+    left: 26%;
 }
 
 .product-img-wrap {
