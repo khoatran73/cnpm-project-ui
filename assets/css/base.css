@@ -15,13 +15,13 @@ img {
     width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, p, li {
+h1, h2, h3, h4, h5, h6, p {
     pointer-events: none;
 }
 
 a {
     text-decoration: none;
-    cursor: pointer;
+    pointer-events: auto;
 }
 
 ul, ol, li {
@@ -78,7 +78,6 @@ h4 {
     color: #fff;
     text-align: center;
     transition: ease-in-out 0.3s;
-    
 }
 
 .btn-sm {
