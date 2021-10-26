@@ -30,6 +30,7 @@ html {
 body, button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    color: var(--text);
 }
 
 h1, h2 {
@@ -49,7 +50,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2.4rem;
+    font-size: 3.0rem;
     font-weight: 600;
     letter-spacing: -1px;
 }
@@ -64,12 +65,13 @@ h3 {
     font-weight: 600;
     padding: 10px 20px;
     color: #fff;
+    text-align: center;
     transition: ease-in-out 0.3s;
+    
 }
 
 .btn-sm {
     padding: 6px 12px;
-    text-align: center;
     font-size: 1.5rem;
     font-weight: 500;
 }
@@ -80,18 +82,18 @@ h3 {
     border: 2px solid var(--text);
 }
 
+.btn-md {    
+    padding: 12px 24px;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
 .btn-lg {
-    background-color: transparent;
-    font-size: 2rem;
     padding: 18px 36px;
-    border-radius: 30px;
+    font-size: 2rem;
     font-weight: 700;
-    min-width: 200px;
-    border: 1px solid #fff;
-    color: #fff;
-    outline: none;
-    cursor: pointer;
-    transition: ease-in-out 0.3s;
+    background-color: transparent;
+    border: 2px solid #fff;
 }
 
 .btn:hover {
@@ -100,7 +102,7 @@ h3 {
 
 .btn-lg:hover {
     background-color: var(--primary);
-    border: 1px solid transparent;
+    border: 2px solid transparent;
 }
 
 .btn-transparent:hover {
@@ -108,4 +110,6 @@ h3 {
     border-color: var(--primary);
     background-color: white;
 }
+
+
 
