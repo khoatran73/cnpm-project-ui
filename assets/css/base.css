@@ -1,6 +1,6 @@
 :root {
-    --primary: #FF7C18;
-    --text: #252B42;
+    --primary: #AC773C;
+    --text: #191A19;
     --second-text: #737373;
     --text-white : #F6F6F6;
 }
@@ -17,6 +17,7 @@ img {
 
 a {
     text-decoration: none;
+    color: var(--text);
 }
 
 ul, ol, li {
@@ -33,7 +34,7 @@ body, button {
     color: var(--text);
 }
 
-h1, h2 {
+h1, h2, h4 {
     font-family: 'Baloo 2', cursive;
 }
 
@@ -53,6 +54,11 @@ h3 {
     font-size: 3.0rem;
     font-weight: 600;
     letter-spacing: -1px;
+}
+
+h4 {
+    font-size: 2.4rem;
+    font-weight: 600;
 }
 
 .btn {
