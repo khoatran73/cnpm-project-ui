@@ -535,7 +535,7 @@ footer .container {
 }
 
 .map-marker span:nth-child(2) {
-    flex: 3.5;
+    flex: 3;
 }
 
 .map-marker a {
