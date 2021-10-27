@@ -305,7 +305,7 @@
     margin-bottom: 30px;
     -webkit-appearance: none;
     -moz-appearance: none;
-
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
 }
 
 .store-form i {
@@ -421,5 +421,126 @@ footer .container {
 
 .footer-bottom p {
     font-size: 1.4rem;
+    font-weight: 400;
+}
+
+/* MAP */
+.section-map {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.map-form {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    background: var(--text-white);
+}
+
+
+.map-form select {
+    width: 70%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 12px 8px;
+    outline: none;
+    border: 1px solid #ced4da;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.map-form i {
+    position: absolute;
+    font-size: 1.5rem;
+    right: 390px;
+    top: 25px;
+}
+
+.map-form .btn {
+    width: 28%;
+}
+
+
+.map-wrapper {
+    display: flex;
+    height: 560px;
+    width: 100%;
+}
+
+.store-list {
+    width: calc(35% - 32px);
+    background-color: var(--text-white);
+    margin-right: 32px;
+    overflow-y: auto;
+}
+
+.store-list h2 {
+    font-size: 2.2rem;
+    text-align: left;
+    padding: 6px 0 6px 12px;
+    background-color: #E5DED8;
+}
+
+.store-list ul li {
+    padding: 16px 0;
+    border-bottom: 1px solid #e6d6d6;
+}
+
+#location:hover {
+    background-color: #e6d6d6;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+.store-list ul li h4 {
+    font-size: 1.8rem;
+    margin-bottom: 6px;
+    font-weight: 600;
+    padding-left: 12px;
+}
+
+.store-list ul li p {
+    font-size: 1.5rem;
+    line-height: 1.45;
+    padding-left: 12px;
+}
+
+#map {
+    width: 65%;
+    height: 100%;
+}
+
+.map-marker {
+    padding: 0 10px 20px 10px;
+    position: relative;
+    overflow: hidden;
+    border: none;
+}
+
+.map-marker h3 {
+    font-size: 2.0rem;
+    margin-bottom: 30px;
+}
+
+.map-marker p {
+    font-size: 1.4rem;
+    margin-top: 6px;
+    display: flex;
+}
+
+.map-marker span:first-child {
+    flex: 1;
+}
+
+.map-marker span:nth-child(2) {
+    flex: 3.5;
+}
+
+.map-marker a {
+    position: absolute;
+    right: 10px;
+    color: var(--primary);
     font-weight: 400;
 }
