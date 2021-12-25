@@ -752,11 +752,6 @@ footer .container {
 
 
 /* Sidebar right */
-.order-sidebar-right {
-
-
-}
-
 .cart-group-top .cart-title {
     display: flex;
     justify-content: space-between;
@@ -809,13 +804,19 @@ footer .container {
 .cart-order-item-right {
     display: flex;
     width: 25%;
-    justify-content: right;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .cart-order-item-right i {
     font-size: 2.0rem;
     color: #7a7aff;
     cursor: pointer;
+}
+
+.cart-order-item-right .remove-cart {
+    cursor: pointer;
+    font-size: 14px;
 }
 
 .cart-order-item-right .amount {
@@ -963,6 +964,7 @@ footer .container {
 
 .popup-info-right .quantity .money {
     background-color: var(--primary);
+    max-width: 81.66px;
     padding: 6px 8px 8px 8px;
     border-radius: 30px;
     width: 75%;
@@ -1019,7 +1021,10 @@ footer .container {
 
 .popup-customize-item .content label {
     padding-left: 26px;
+    padding-right: 6px;
     cursor: pointer;
+    display: flex;
+    justify-content: space-between;
 }
 
 .popup-customize-item .content input {
